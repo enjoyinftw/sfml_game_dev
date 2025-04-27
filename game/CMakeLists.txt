@@ -1,6 +1,6 @@
 add_executable(${GAME_TARGET_NAME}
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/Game/Game.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/Game/Game.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/Core/Game.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Game.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
 )
 

@@ -5,17 +5,17 @@
 static std::string GetResourceDir()
 {
 #ifdef NDEBUG //RELEASE
-    return "assets/";
+    return "/";
 #else
-    return "D:/projects/learn_cpp/sfml_game_dev/game/assets/";
+    return "/";
 #endif
 }
 
 static std::string GetGameDataDir()
 {
 #ifdef NDEBUG // RELEASE
-    return "gamedata/";
+    return "/";
 #else
-    return "D:/projects/learn_cpp/sfml_game_dev/game/gamedata/";
+    return "/";
 #endif
 }
